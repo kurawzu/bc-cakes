@@ -1,0 +1,18 @@
+.container {
+    background-color: #fdb000;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+
+  .red{
+    color: #C83F49;
+  }
+  

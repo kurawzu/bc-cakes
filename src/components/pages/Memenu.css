@@ -1,0 +1,108 @@
+.Menu{
+    background-color: white;
+    min-height: 20vh;
+    width: 90%;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-top: 6px solid black;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+  
+    position: relative;
+    padding: 20px;
+}
+
+.Menu h1{
+  font-size: 4rem;
+  background-color: #FDB000;
+  color: white;
+  padding: 0px 10px 0px 10px;
+  border: solid black 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+
+  .Menu a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    background-color: #C83F49;
+    padding: 10px;
+    border-radius:10px;
+    border: solid black;
+    margin: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+    width: 10vw;
+    letter-spacing: 2px;
+   
+  }
+
+  .Menu a:hover{
+    background-color: #FDB000;
+    color: white;
+ 
+  }
+
+  .Menu .foodTypes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .Menu .foodTypes .typeOfFood{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Menu .foodTypes .typeOfFood img{
+    width: 8vw;
+    margin: 20px;
+  }
+
+
+@media screen and (max-width: 1000px) {
+ 
+
+      .Menu h1{
+        font-size: 3rem;
+      }
+    
+  }
+
+  @media screen and (max-width: 740px) {
+ 
+    .Menu a{
+      padding: 2px;
+   
+      margin: 5px;
+    
+      width: 20vw;
+    }
+    
+    .Menu .foodTypes .typeOfFood img{
+      margin-bottom: 1px;
+      width: 15vw;
+    }
+  
+}
+
+
+  @media screen and (max-width: 600px) {
+ 
+
+    .Menu h1{
+      font-size: 2rem;
+    }
+
+    
+    
+  }

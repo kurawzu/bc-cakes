@@ -1,0 +1,110 @@
+.Home{
+    background-color: white;
+    min-height: 100vh;
+    width: 90%;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-left: 6px solid black;
+    position: relative;
+    border-right: 6px solid black;
+    margin-top: 10px;
+    border-top: 6px solid black;
+    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px;
+
+   
+   
+   
+}
+
+.Home .video-container {
+    height: 55vh;
+    width: 80%;
+ 
+    
+  }
+
+ .Home img {
+  display: none;
+    
+  }
+  
+ .Home .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 6px solid black;
+    
+  }
+
+  .Home p{
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bolder;
+    margin-top: 23vh; 
+    margin-bottom: 20px;
+  }
+
+  .homeBut{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .homeBut button{
+    background-color: #C83F49;
+    padding: 10px;
+    border-radius:10px;
+    border: solid black;
+    margin: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+  }
+
+  .homeBut button:hover{
+    background-color: #FDB000;
+    color: white;
+ 
+  }
+
+  @media screen and (max-width: 900px) {
+    .Home p{
+        font-size: 1rem;  
+        font-weight: bolder;
+       
+      }
+    
+  }
+
+
+  @media screen and (max-width: 780px) {
+  
+    .Home .video-container {
+       display: none;
+        
+      }
+     
+      .Home img {
+       display: inline;
+       width: 70%;
+       margin-top: 115px;
+          
+        }
+
+        .Home p{
+          margin-top: 20px;
+          margin-bottom: 0px;
+          text-align: justify;
+        }
+
+
+  }
+

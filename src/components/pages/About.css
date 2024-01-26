@@ -1,0 +1,94 @@
+.Service {
+  background-color: white;
+  min-height: 40vh;
+  width: 90%;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border-left: 6px solid black;
+  border-right: 6px solid black;
+  border-top: 6px solid black;
+  position: relative;
+  padding: 20px;
+}
+
+.serCon {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.serv {
+  border: solid black 5px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  width: 25vw;
+  min-width: 150px;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.serv h2 {
+  color: #C83F49;
+}
+
+.serv p {
+  font-size: auto;
+}
+
+.Service h1 {
+  font-size: 4rem;
+  background-color: #FDB000;
+  color: white;
+  padding: 0px 10px 0px 10px;
+  border: solid black 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 1172px) {
+  .Service h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+   
+  }
+
+  .serv {
+    width: 45vw; 
+    min-width: auto; 
+    height: auto; 
+  }
+}
+
+@media screen and (max-width: 568px) {
+
+  .Service h1 {
+    font-size: 2rem;
+  }
+
+  .serv h2 {
+    font-size: 1rem;
+  }
+
+  .serv p{
+    font-size: 0.7rem;
+  }
+
+  .serv{
+    padding: 5px;
+  }
+
+  
+}
+
+
